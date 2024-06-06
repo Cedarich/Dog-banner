@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkred;
+}
+
+h2 {
+    color: rgb(93, 26, 12);
+    background-color: rgb(216, 219, 143);
+}
+
+/* #about, #courses, #interests, #pet-info {
+    background-color: none
+    padding: 15px;
+    margin: 10px 0; */
+    
+
+
+table {
+    width: 42%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table, th, td {
+    border: 1.5px solid black;
+}
+
+th, td {
+    padding: 6px;
+    text-align: left;
+    
+}
+
+.highlight {
+    color: red;
+}
+
+form label {
+    display: inline-block;
+    width: 100px;
+}
+
+form input[type="text"] {
+    margin-bottom: 10px;
+}
+
+#dog-photo {
+    text-align: center;
+}
+
+#dog-photo img {
+    width: 300px;
+    height: auto;
+}
+
+.merged-cell{
+    text-align: center;
+    font-style: bolder 5px;
+}
+
+.fade{
+
+    background-color: rgb(191, 197, 197);
+}
+
+.center th{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+span{
+    color: brown;
+}
+
+.green{
+    color: rgb(100, 226, 100);
+}
+
+.stylish-text{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
